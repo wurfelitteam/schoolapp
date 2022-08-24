@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Admissions Report Page</title>
+  </head>
+  <body>
+    <h1>Get Report Details Here</h1>
+    {% for s in allstudents %}
+    {{s.name}}
+    {{s.fathername}}
+    {{s.classname}}
+    {{s.contact}} <br/>
+    {% endfor %}
+  </body>
+</html>
